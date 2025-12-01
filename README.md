@@ -5,7 +5,7 @@ Aplikasi *dashboard* cuaca modern berbasis web yang menampilkan informasi cuaca 
 
 ## 🖼️ Tampilan Antarmuka (Preview)
 
-Berikut adalah pratinjau visual dari desain **Glassmorphism** dan **Dark/Light Mode** aplikasi *Weather Dashboard* Anda.
+Berikut adalah pratinjau visual dari desain **Glassmorphism** dan **Dark/Light Mode** aplikasi *Weather Dashboard* 
 
 ### ☀️ Mode Terang (Light Mode)
 
