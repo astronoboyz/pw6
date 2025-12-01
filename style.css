@@ -1,0 +1,143 @@
+/* GLOBAL STYLES & RESET */
+:root {
+    --primary-color: #007bff;
+    --primary-text-color: #007bff;
+    --secondary-color: #6c757d;
+    --adaptive-text-color: #212529; /* Warna teks default */
+    --adaptive-text-50-color: #6c757d; /* Warna teks sekunder default */
+    --adaptive-card-bg: #ffffff;
+}
+
+[data-bs-theme="dark"] {
+    --primary-color: #4a90e2; 
+    --primary-text-color: #4a90e2; 
+    --secondary-color: #adb5bd;
+    --adaptive-text-color: #f8f9fa; /* Teks putih di dark mode */
+    --adaptive-text-50-color: #adb5bd; /* Teks abu-abu terang di dark mode */
+    --adaptive-card-bg: #1f2022;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* KELAS ADAPTIF */
+.adaptive-text {
+    color: var(--adaptive-text-color) !important;
+}
+.adaptive-text-50 {
+    color: var(--adaptive-text-50-color) !important;
+}
+.primary-text {
+    color: var(--primary-text-color) !important;
+}
+.adaptive-card {
+    background-color: var(--adaptive-card-bg) !important;
+}
+
+/* KONTROL & HEADER */
+.control-btn {
+    border-color: var(--secondary-color) !important;
+    color: var(--adaptive-text-color) !important;
+}
+.control-btn:hover {
+    background-color: rgba(var(--primary-color), 0.1) !important;
+}
+.btn-outline-danger {
+    --bs-btn-color: var(--secondary-color);
+    --bs-btn-border-color: var(--secondary-color);
+}
+.btn-outline-danger.active, .btn-outline-danger:hover {
+    color: #fff !important;
+    background-color: #dc3545 !important;
+    border-color: #dc3545 !important;
+}
+
+/* CURRENT WEATHER DETAILS */
+.details-grid .detail-value {
+    font-size: 1.2em;
+}
+
+/* FORECAST */
+.forecast-card {
+    transition: transform 0.2s;
+    background-color: var(--adaptive-card-bg);
+}
+.forecast-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+.forecast-icon {
+    width: 60px;
+    height: 60px;
+}
+.temp-max {
+    color: var(--primary-text-color);
+    font-size: 1.1em;
+}
+.temp-min {
+    font-size: 0.9em;
+}
+
+/* FAVORITES */
+.favorites-list .saved-city-item {
+    padding: 10px 15px;
+    background-color: var(--adaptive-card-bg);
+    cursor: pointer;
+}
+.favorites-list .saved-city-item:hover {
+    background-color: var(--bs-body-bg); /* Warna background body */
+}
+/* Tambahkan ke style.css */
+
+/* Efek umum untuk semua elemen yang beradaptasi (kartu, dll.) */
+.adaptive-card {
+    background-color: var(--adaptive-card-bg) !important;
+    /* Meningkatkan shadow */
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.05) !important;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Hover effect pada kartu (misalnya kartu prakiraan) */
+.forecast-card:hover {
+    transform: translateY(-5px) scale(1.02); /* Animasi sedikit ke atas dan membesar */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Efek pada daftar favorit */
+.favorites-list .saved-city-item:hover {
+    background-color: var(--bs-body-bg); 
+    transform: translateX(5px); /* Animasi geser ke kanan */
+    transition: transform 0.2s ease-out;
+}
+
+/* Modifikasi tombol favorit */
+#btnFavorite {
+    transition: color 0.3s, background-color 0.3s, border-color 0.3s;
+}
+/* Efek saat favorit aktif/terpilih */
+#btnFavorite.active {
+    background-color: #dc3545 !important;
+    border-color: #dc3545 !important;
+    color: white !important;
+    animation: pulse-favorite 0.5s 1;
+}
+
+/* Animasi untuk tombol favorit */
+@keyframes pulse-favorite {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+
+/* Ganti warna teks utama suhu menjadi gradien (contoh canggih) */
+/* (Hanya jika Anda menggunakan SCSS atau CSS yang sangat modern, 
+   tapi mari kita gunakan warna solid yang kuat saja) */
+
+/* Pastikan input pencarian terlihat bagus di dark mode */
+.input-group input#cityInput {
+    background-color: var(--adaptive-card-bg) !important;
+    color: var(--adaptive-text-color) !important;
+    border-color: var(--secondary-color) !important;
+}
