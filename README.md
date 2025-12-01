@@ -9,11 +9,12 @@ Berikut adalah pratinjau visual dari desain **Glassmorphism** dan **Dark/Light M
 
 ### ☀️ Mode Terang (Light Mode)
 
-![Pratinjau Mode Terang](https://raw.githubusercontent.com/username/repo-name/main/assets/light-mode.png) 
+<img width="1899" height="901" alt="image" src="https://github.com/user-attachments/assets/dfd84fbc-ea34-4943-9b3d-349224dc5011" />
+
 
 ### 🌙 Mode Gelap (Dark Mode)
 
-![Pratinjau Mode Gelap](https://raw.githubusercontent.com/username/repo-name/main/assets/dark-mode.png)
+<img width="1903" height="900" alt="image" src="https://github.com/user-attachments/assets/de24ae74-fffe-4b3c-a3f5-7a6181885852" />
 
 ## ✨ Fitur Utama (Core Features)
 
