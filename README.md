@@ -2,6 +2,19 @@
 
 Aplikasi *dashboard* cuaca modern berbasis web yang menampilkan informasi cuaca *real-time* dan ramalan cuaca 5 hari ke depan. Proyek ini dibangun menggunakan **Vanilla JavaScript** (Fetch API) dengan desain antarmuka **Glassmorphism** yang *eye-catching* dan responsif.
 
+
+## 🖼️ Tampilan Antarmuka (Preview)
+
+Berikut adalah pratinjau visual dari desain **Glassmorphism** dan **Dark/Light Mode** aplikasi *Weather Dashboard* Anda.
+
+### ☀️ Mode Terang (Light Mode)
+
+![Pratinjau Mode Terang](https://raw.githubusercontent.com/username/repo-name/main/assets/light-mode.png) 
+
+### 🌙 Mode Gelap (Dark Mode)
+
+![Pratinjau Mode Gelap](https://raw.githubusercontent.com/username/repo-name/main/assets/dark-mode.png)
+
 ## ✨ Fitur Utama (Core Features)
 
 | Fitur | Deskripsi | Status |
